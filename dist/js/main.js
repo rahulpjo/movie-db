@@ -81,7 +81,7 @@ function displayResults(results) {
 
 		let moviePic = document.createElement("img");
 		if (convertedResults.results[i].poster_path == null){
-			moviePic.src = "images/imgNF.png"
+			moviePic.src = "../img/imgNF.png"
 		}
 		else {
 			moviePic.src = "https://image.tmdb.org/t/p/w300" + convertedResults.results[i].poster_path;
